@@ -11,7 +11,6 @@ function App() {
     const fetch = async () => {
       const fetchedData = await fetchData();
       setData(await fetchedData)
-      console.log(await fetchedData)
     }
     fetch()
   }, [])
